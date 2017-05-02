@@ -7,7 +7,7 @@
 > Instructor: Bo Zhao | TA: Kyle R. Hogrefe | Location: LINC 368 | Time: Tuesday/Thursday 9-9:50am
 
 ## Create a Style
-Create an Empty Style or Edit an existing style. We will start with an empty style. 
+>Create an Empty Style or Edit an existing style. We will start with an empty style. 
 ![](img/Empty_style.PNG)
 >Add layers from Mapbox Tilesets.
 >Add one at a time, select visual scale, and type of feature. 
@@ -31,9 +31,25 @@ Create an Empty Style or Edit an existing style. We will start with an empty sty
 >I added the streetlights and sidewalks tilesets that I created to the default dark style, to create a Night Walk map.
 ![](img/nitewalk.PNG)
 ## Share, Develop, and Use your custom style
+>Select </>share, develop, and use.
+>From here, you can add your custom style as a basemap in Arcmap or as a tileset in a web map.
+![](img/share.PNG)
+>![](img/mapbox.PNG)
+>Using Mapbox
+
+><script>
+>mapboxgl.accessToken = 'pk............';
+>var map = new mapboxgl.Map({
+>	container: 'map', //container id
+>	style: 'mapbox://style/whitsons/.....', //hosted style id	
+>	center: [-123, 44], //starting position
+>	zoom: 5.9 //starting zoom
+>});
+></script>
+
+>Using Leaflet (L.tileset)
+	
+	
 
 
 
-```javascript
-	console.log("hello,world!")
-```
