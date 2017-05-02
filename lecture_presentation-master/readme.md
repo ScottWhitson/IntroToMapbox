@@ -35,7 +35,7 @@
 >From here, you can add your custom style as a basemap in Arcmap or as a tileset in a web map.
 ![](img/share.PNG)
 >![](img/mapbox.PNG)
->Using Mapbox
+#Using Mapbox
 >*Important* Copy and paste both the access token and style over for your style to work.
 
 ><script>
@@ -55,6 +55,17 @@
 >});
 
 ></script>
+
+#Leaflet
+
+>var map = L.map('map').setView([51.505, -0.09], 13);
+
+>L.tileLayer('https://api.mapbox.com/styles/v1/whitsons/cj25bfbfu001i2rr24dxw6x3r/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoid2hpdHNvbnMiLCJhIjoiY2l0eW15ZDJ6MDhrbTJ5bjRuZGx1Z3lmZiJ9.4RXjTjxBUVzG2X3mdtcSZQ', {
+   
+>attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+
+>}).addTo(map);
+
 
 
 	
