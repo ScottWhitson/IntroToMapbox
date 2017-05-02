@@ -14,6 +14,7 @@ Create an Empty Style or Edit an existing style. We will start with an empty sty
 ![](img/Add_layer.PNG)
 >Eventually, after your main basemap layers are set, you will have your own basemap that yu can add yor own data to as well.
 >Below is an example of custom style with out my own data incorporated.
+>Publish your style by selecting publish at the top left. If you publish as new, it is essentially a Save as and creates a ...(copy) style. Always be aware of what style you are editing in case you do publish as new. Once you are comfortable with editing the styles, try editing a default tileset, such as mapbox.dark
 ![](img/LOTR_styleNW.PNG)
 ![](img/LOTR_style.PNG)
 ## Import your data into a Dataset
@@ -23,7 +24,13 @@ Create an Empty Style or Edit an existing style. We will start with an empty sty
 ![](img/dataset1.PNG)
 ![](img/dataset2.PNG)
 ## Create A Tileset and add it to your style
->
+>After adding each layer, select export at the top left, and export to a new tileset.
+![](img/export2tileset.PNG)
+>After creating the tileset, you will come to this page where you can add it to one of your editable styles.
+![](img/add2style.PNG)
+>I added the streetlights and sidewalks tilesets that I created to the default dark style, to create a Night Walk map.
+![](img/nitewalk.PNG)
+## Share, Develop, and Use your custom style
 
 
 
