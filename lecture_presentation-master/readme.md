@@ -36,6 +36,7 @@
 ![](img/share.PNG)
 >![](img/mapbox.PNG)
 >Using Mapbox
+>*Important* Copy and paste both the access token and style over for your style to work.
 
 ><script>
 
@@ -55,7 +56,7 @@
 
 ></script>
 
->Using Leaflet (L.tileset)
+
 	
 	
 
