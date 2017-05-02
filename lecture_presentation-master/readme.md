@@ -38,13 +38,21 @@
 >Using Mapbox
 
 ><script>
+
 >mapboxgl.accessToken = 'pk............';
+
 >var map = new mapboxgl.Map({
+
 >	container: 'map', //container id
+
 >	style: 'mapbox://style/whitsons/.....', //hosted style id	
+
 >	center: [-123, 44], //starting position
+
 >	zoom: 5.9 //starting zoom
+
 >});
+
 ></script>
 
 >Using Leaflet (L.tileset)
