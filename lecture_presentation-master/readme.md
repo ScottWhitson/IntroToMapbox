@@ -20,6 +20,8 @@ Create an Empty Style or Edit an existing style. We will start with an empty sty
 >*Important* We must first open the geojson in a text editor (WebStorm) and delete the crs line to successfully import a geojson (under 5mb) into mapbox.
 ![](img/crs.PNG)
 >Datasets are layers in your style not an entire geodatabase. Import one layer for each dataset depending on how you want your symbology or style done.
+![](img/dataset1.PNG)
+![](img/dataset2.PNG)
 ## Create A Tileset and add it to your style
 >
 
